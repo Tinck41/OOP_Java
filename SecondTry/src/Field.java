@@ -14,7 +14,7 @@ public class Field {
 	static  int[][] map1;
 
 	static {
-		map1 = MapLoader.load("map.txt");
+		map1 = MapLoader.load("./map/map.txt");
 	}
 	
 	public void paint(Graphics g) {

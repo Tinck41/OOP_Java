@@ -14,7 +14,7 @@ public class ImageStore {
 	
 	private ImageStore() {
 		try {
-			img = ImageIO.read(new File("Archer.png"));
+			img = ImageIO.read(new File("./tiles/Archer.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
